@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/srpitre1/srpite12/main/main')))()
 local Window = OrionLib:MakeWindow({Name = "Key", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "mm2"})
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
