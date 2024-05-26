@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
  
-local Window = Library.CreateLib("mm2-sripte", "RJTheme1")
+local Window = Library.CreateLib("Тест-Скрипт", "RJTheme3")
  
-local Tab = Window:NewTab("esp")
+local Tab = Window:NewTab("Main")
  
 local Section = Tab:NewSection("esp")
  
@@ -31,3 +31,7 @@ while true do
    wait(0.1)
 end
 end)
+
+local Tab = Window:NewTab("localplayers")
+
+local Section = Tab:NewSection("localplayers")
