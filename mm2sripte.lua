@@ -35,3 +35,6 @@ end)
 local Tab = Window:NewTab("localplayers")
 
 local Section = Tab:NewSection("localplayers")
+Section:NewSlider("Walkspeed", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
