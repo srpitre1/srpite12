@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "mm2"})
+local Window = OrionLib:MakeWindow({Name = "Key", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest",IntroText = "mm2"})
 local Tab = Window:MakeTab({
 	Name = "Tab 1",
 	Icon = "rbxassetid://4483345998",
