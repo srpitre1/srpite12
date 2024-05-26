@@ -13,7 +13,7 @@ function Makescr1ptHub()
 end
 Tab:AddTextbox({
 	Name = "Key",
-	Default = "",
+	Default = "Pls key",
 	TextDisappear = true,
 	Callback = function(Value)
      _G.KeyInput = Value
