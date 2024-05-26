@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
  
-local Window = Library.CreateLib("Тест-Скрипт", "RJTheme3")
+local Window = Library.CreateLib("MM2", "RJTheme3")
  
 local Tab = Window:NewTab("Main")
  
@@ -35,6 +35,15 @@ end)
 local Tab = Window:NewTab("localplayers")
 
 local Section = Tab:NewSection("localplayers")
-Section:NewSlider("Walkspeed", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("Walkspeed", "Быстро Бегать", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+Section:NewSlider("Jumppower", "Сильно прыгаешь", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewButton("InfJump", "Бесконечный прыжок", function()
+        game:GetService("UserInputService").JumpRequest:connect(function()
+        game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")       
+    end)
 end)
