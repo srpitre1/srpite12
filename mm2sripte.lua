@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
  
-local Window = Library.CreateLib("Тест-Скрипт", "RJTheme1")
+local Window = Library.CreateLib("mm2-sripte", "RJTheme1")
  
-local Tab = Window:NewTab("Main")
+local Tab = Window:NewTab("esp")
  
 local Section = Tab:NewSection("esp")
  
