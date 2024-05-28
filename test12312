@@ -395,9 +395,9 @@ function WindowTable:CreateWindow(config)
 	instances.StringValue_1.Name = 'SelectedPlayer'
 
 	instances.Frame_1.Parent = screenGui
-	instances.Frame_1.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
-	instances.Frame_1.Position = UDim2.new(0, 289, 0, 181)
-	instances.Frame_1.Size = UDim2.new(0, 543, 0, 344)
+	instances.Frame_1.BackgroundColor3 = Color3.new(0.519608, 0.219608, 0.219608)
+	instances.Frame_1.Position = UDim2.new(0, 189, 0, 181)
+	instances.Frame_1.Size = UDim2.new(0, 343, 0, 314)
 	instances.Frame_1.Name = 'MainUI'
 	instances.Frame_1.Visible = true
 	Draggify(instances.Frame_1)
